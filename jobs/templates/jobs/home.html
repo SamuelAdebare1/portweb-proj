@@ -3,8 +3,9 @@
 
 <!doctype html>
 <html lang="en">
-{% load staticfiles %}
+
   <head>
+  {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -47,7 +48,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
       <a class="nav-item nav-link " href="http://twitter.com">Twitter </a>
-      <a class="nav-item nav-link" href="{% static "yeni.pdf" %}">Resume</a>
+      <a class="nav-item nav-link" href="{% static "postgres.png" %}">Resume</a>
       <a class="nav-item nav-link " href="{% url "allblogs" %}">Blog</a>
     </div>
   </div>
@@ -64,7 +65,7 @@
       <p>
         <a href="mailto:samueladebare1010@gmail.com" class="btn btn-primary my-2">Contact us!</a>
       </p>
-      <img src="{% static "web.png" %}">
+      <img src="{% static 'sam.jpeg' %}" height="300"/>
     </div>
   </section>
 
